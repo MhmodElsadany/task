@@ -11,7 +11,7 @@ public class ForItemActivity extends AppCompatActivity {
         setContentView(R.layout.activity_for_item);
 
         if (savedInstanceState == null) {
-            ForItemFragment forItemFragment  = new ForItemFragment();
+            ForItemFragment forItemFragment = new ForItemFragment();
 
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment, forItemFragment, "").commit();
         }
